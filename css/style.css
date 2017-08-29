@@ -1,0 +1,25 @@
+.container {
+    background-color: #868686;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.flex-container {
+    border: 1px solid #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin: auto;
+    width: 400px;
+}
+
+.flex-element, .flex-element-12 {
+    align-items: center;
+    background-color: #525252;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-basis: 100px;
+    justify-content: center;
+}
